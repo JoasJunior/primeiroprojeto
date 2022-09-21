@@ -9,37 +9,36 @@ body{
     top: 5px;
 }
 .header{
-    background-color: #322f2f;
-    box-shadow: 1px 1px 5px black;
+    background-color: #2b2a2a;
+    box-shadow: 1px 1px 10px black;
     height: 3.5em;
     padding: 0 10%;
-    margin: 0 0 10px 0;
+    margin: 0 0 20px 0;
+
 }
 .nav-header{
     position: absolute;
-	top: 20px;
+	top: 15px;
 	right: 0;
     padding: 0 10%;
 }
 .nav-header a{
-    padding: 8px;
+    margin: 5px;
     text-align: center;
-    background-color: #322f2f;
     color: #ffffff;
     text-decoration: none;
     font-weight: bold;
     display: block;
 }
-.nav-header ul ul{
-    position: absolute;
-    display: inline;
-    margin: 20px 0 0 0;
-}
 .nav-header ul li{
+    width: 150px;
     float: left;
 }
+.nav-header ul ul{
+       visibility: hidden;
+}
 .nav-header ul li:hover ul{
-    position: absolute;
+    
     visibility: visible;
 }
 .nav-header li{
@@ -58,7 +57,9 @@ body{
     width: 50px;
     margin: 100px 0 0 20px;
 }
-footer{   
+footer{
+    box-shadow: 1px 1px 10px black;
+    margin: 20px 0 0 0; 
     color: white;
     text-align: center;
 	background: #322f2f;
