@@ -64,10 +64,19 @@ body{
     margin: 0 10%;
     display: flex;
 }
+.noticias h1{
+    color: black;
+    margin: 0 10%;
+}
 .art-1{
     width: 33%;
     border: 1px solid white;
     height: 300px;
+}
+.tittle-post{
+    border-radius: 10px 10px;
+    padding: 3%;
+    background: rgba(255, 255, 255, 0.304);
 }
 .art-2{
     width: 33%;
@@ -83,7 +92,7 @@ footer{
     position: absolute;
     bottom: 0;
     width: 100%;
-    box-shadow: 1px 1px 10px black;
+    box-shadow: 0px 10px 20px 10px black;
     margin: 20px 0 0 0; 
     text-align: center;
 	background: #322f2f;
@@ -95,9 +104,7 @@ footer{
 }
 .footer-art li{
     text-transform: uppercase;
-    margin: 0 0 15px 0;
-    
-    
+    margin: 0 0 15px 0;  
 }
 .footer-art a:hover{
     color: rgb(11, 181, 51);
@@ -147,5 +154,4 @@ footer{
     padding: 0 0 30px 0;
 	color: #FFFFFF;
 	font-size: 13px;
-	margin: 0 0 0 0;
 }
